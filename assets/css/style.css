@@ -1,0 +1,42 @@
+/* FONT IMPORTS */
+/* Ubuntu for logo text */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+/* Roboto for page text */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin-top: 130px;
+    margin-bottom: 2rem;
+    flex: 1 0 auto;
+}
+
+
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
