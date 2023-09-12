@@ -18,10 +18,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
 main {
-    margin-top: 130px;
+    margin-top: 77px;
     margin-bottom: 2rem;
     flex: 1 0 auto;
 }
@@ -64,12 +65,12 @@ header a {
 #menu a {
     font-size: 1.25rem;
     font-weight: bold;
-    color: rgb(0, 91, 221);
+    color: inherit;
     transition: all 0.2s linear;
 }
 
 #menu .active-link {
-    color: rgb(0, 41, 99);
+    color: rgb(128, 128, 128);
     text-decoration: underline;
 }
 
